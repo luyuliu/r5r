@@ -40,13 +40,14 @@ You can install `r5r`:
 
 ```
 
-Please bear in mind that you need to have *Java SE Development Kit 11* installed 
-on your computer to use `r5r`. No worries, you don't have to pay for it. The jdk 
-11 is freely available from the options below:
-- [OpenJDK](http://jdk.java.net/java-se-ri/11)
-- [Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+Please bear in mind that you need to have *Java Development Kit (JDK) 21* installed 
+on your computer to use `r5r`. No worries, you don't have to pay for it. There are
+numerous open-source JDK implementations, any of which should work with `r5r`. If you don't
+already have a preferred JDK, we recommend [Adoptium/Eclipse Temurin](https://adoptium.net/).
+Other open-source JDK implementations include [Amazon Corretto](https://aws.amazon.com/corretto/),
+and [Oracle OpenJDK](https://jdk.java.net/21/). You only need to install one JDK.
 
-If you don't know what version of Java you have installed on your computer, you 
+If you don't know what version of Java you have installed on your computer,
 can check it by running this on R console.
 
 ```R
@@ -234,7 +235,6 @@ BibTeX:
 	shorttitle = {r5r},
 	url = {https://findingspress.org/article/21262-r5r-rapid-realistic-routing-on-multimodal-transport-networks-with-r-5-in-r},
 	doi = {10.32866/001c.21262},
-	abstract = {Routing is a key step in transport planning and research. Nonetheless, researchers and practitioners often face challenges when performing this task due to long computation times and the cost of licensed software. R{\textasciicircum}5{\textasciicircum} is a multimodal transport network router that offers multiple routing features, such as calculating travel times over a time window and returning multiple itineraries for origin/destination pairs. This paper describes r5r, an open-source R package that leverages R{\textasciicircum}5{\textasciicircum} to efficiently compute travel time matrices and generate detailed itineraries between sets of origins and destinations at no expense using seamless parallel computing.},
 	language = {en},
 	urldate = {2021-03-04},
 	journal = {Findings},

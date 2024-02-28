@@ -1,7 +1,7 @@
 Type: Package
 Package: r5r
 Title: Rapid Realistic Routing with 'R5'
-Version: 1.1.0
+Version: 1.1.0.9000
 Authors@R: c(
     person("Marcus", "Saraiva", , "marcus.saraiva@gmail.com", role = "aut",
            comment = c(ORCID = "0000-0001-6218-2338")),
@@ -11,8 +11,10 @@ Authors@R: c(
            comment = c(ORCID = "0000-0001-8066-1105")),
     person("Carlos Kaue Vieira", "Braga", , "kaue@kauebraga.dev", role = "aut",
            comment = c(ORCID = "0000-0002-6104-7297")),
-    person("Matthew Wigginton", "Conway", , "mwconway@asu.edu", role = "aut",
+    person("Matthew Wigginton", "Bhagat-Conway", , "mwbc@unc.edu", role = "aut",
            comment = c(ORCID = "0000-0002-1210-2982")),
+    person("Luyu", "Liu", , "luyuliu@ufl.edu", role = "ctb",
+           comment = c(ORCID = "0000-0002-6684-5570")),
     person("Ipea - Institute for Applied Economic Research", role = c("cph", "fnd"))
   )
 Description: Rapid realistic routing on multimodal transport networks
@@ -66,4 +68,4 @@ VignetteBuilder:
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
-SystemRequirements: Java JDK (>= 11.0)
+SystemRequirements: Java JDK (>= 21.0)
